@@ -57,10 +57,10 @@
         function routePlayer() {
 
             var settings = {
-                lmsEnabled: false,
+                lmsEnabled: true,
                 tincanEnabled: false,
                 aoEnabled: false,
-                runtimeOrder: [{"type":"html5","url":"story_html5.html"}],
+                runtimeOrder: [{"type":"html5","url":"story_html5.html"},{"type":"flash","url":"story_flash.html"}],
                 warnOnCommitFail: false
             };
 
@@ -291,8 +291,8 @@
                         </g>
                     </svg>
                 </p>
-                <p>This course cannot be played because your web browser does not support HTML5.</p>
-                <p><a href=""></a></p>
+                <p>This course cannot be played.</p>
+                <p><a href="https://ipc.articulate.com/slw/3/en/cannotplay/">Learn More</a></p>
 
             </td>
         </tr>
